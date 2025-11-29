@@ -1,0 +1,12 @@
+# LabVIEW Local Config files
+*.aliases
+*.lvlps
+*.lvbitx
+
+# Auto-backup files
+*.mw
+*.r
+
+# Python compiled files 
+__pycache__/
+*.py[cod]
