@@ -12,7 +12,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="CheckMove.vi" Type="VI" URL="../sub vi/CheckMove.vi"/>
+		<Item Name="CheckWin.vi" Type="VI" URL="../sub vi/CheckWin.vi"/>
+		<Item Name="Drawboard.vi" Type="VI" URL="../sub vi/Drawboard.vi"/>
+		<Item Name="GetValidMoves.vi" Type="VI" URL="../sub vi/GetValidMoves.vi"/>
+		<Item Name="Global Variable.vi" Type="VI" URL="../Global Variable.vi"/>
+		<Item Name="IsBoardFull.vi" Type="VI" URL="../sub vi/IsBoardFull.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="PlacePiece.vi" Type="VI" URL="../sub vi/PlacePiece.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
