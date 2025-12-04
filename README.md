@@ -82,7 +82,7 @@ Optional modes:
 
 ## 3. AI Player Documentation
 
-This section describes the design, planned integration, model architecture, and game logic of the AI player. The AI aims to provide adjustable difficulty, strategic gameplay, and future expandability for learning.
+This section describes the design, planned integration, model architecture, and game logic of the AI player. The AI aims to provide adjustable difficulty, strategic gameplay, and future expandability for learning. See the implement at [AI Agent](./AI%20agent/).
 
 ### 3.1 Design Principles
 1. **Adjustable Difficulty**  
