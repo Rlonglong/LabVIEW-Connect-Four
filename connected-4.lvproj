@@ -12,6 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="AIMove.vi" Type="VI" URL="../sub vi/AIMove.vi"/>
 		<Item Name="CheckMove.vi" Type="VI" URL="../sub vi/CheckMove.vi"/>
 		<Item Name="CheckWin.vi" Type="VI" URL="../sub vi/CheckWin.vi"/>
 		<Item Name="Drawboard.vi" Type="VI" URL="../sub vi/Drawboard.vi"/>
