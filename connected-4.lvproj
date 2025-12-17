@@ -13,9 +13,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="AIMove.vi" Type="VI" URL="../sub vi/AIMove.vi"/>
+		<Item Name="AIMove_MinMax.vi" Type="VI" URL="../sub vi/AIMove_MinMax.vi"/>
 		<Item Name="CheckMove.vi" Type="VI" URL="../sub vi/CheckMove.vi"/>
 		<Item Name="CheckWin.vi" Type="VI" URL="../sub vi/CheckWin.vi"/>
 		<Item Name="Drawboard.vi" Type="VI" URL="../sub vi/Drawboard.vi"/>
+		<Item Name="DrawHover.vi" Type="VI" URL="../sub vi/DrawHover.vi"/>
 		<Item Name="GetValidMoves.vi" Type="VI" URL="../sub vi/GetValidMoves.vi"/>
 		<Item Name="Global Variable.vi" Type="VI" URL="../Global Variable.vi"/>
 		<Item Name="IsBoardFull.vi" Type="VI" URL="../sub vi/IsBoardFull.vi"/>
