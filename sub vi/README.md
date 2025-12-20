@@ -31,7 +31,7 @@ This README summarizes the included SubVIs and their functionalities.
 - **Inputs:**  
   - `board` (2D array) – current game board  
   - `player` (I32) – player ID  
-  - `col` (I32) - target column
+  - `col` (I32) - target column  
 - **Outputs:**  
   - `win` (Boolean) – TRUE if the player has four in a row  
   - `winner` (I32) – returns the winning player ID if win = TRUE  
@@ -41,16 +41,25 @@ This README summarizes the included SubVIs and their functionalities.
 - **Inputs:**  
   - `board` (2D array) – current game board  
 - **Outputs:**  
-  - `UI` (2D Picture) - the UI to show
+  - `UI` (2D Picture) - the UI to show  
 
-### 5. GetValidMoves.vi
+### 5. DrawHover.vi
+- **Purpose:** Shows a visual indicator (cross ✕) on columns that are full when the mouse hovers over them.  
+- **Inputs:**  
+  - `board` (2D array) – current game board  
+  - `col` (I32) – hovered column  
+  - `UI` (2D Picture) – current UI display  
+- **Outputs:**  
+  - `UI_out` (2D Picture) – updated UI with hover indicator  
+
+### 6. GetValidMoves.vi
 - **Purpose:** Returns the list of columns where a piece can still be placed.  
 - **Inputs:**  
   - `board` (2D array) – current game board  
 - **Outputs:**  
   - `validCols` (1D array of Boolean) – array of column indices that are valid moves  
 
-### 6. IsBoardFull.vi
+### 7. IsBoardFull.vi
 - **Purpose:** Checks if the board is full (tie condition).  
 - **Inputs:**  
   - `board` (2D array) – current game board  
@@ -66,6 +75,7 @@ This README summarizes the included SubVIs and their functionalities.
   2. Use `PlacePiece.vi` to update the board.  
   3. Use `CheckWin.vi` to check for a winning move.  
   4. Use `DrawBoard.vi` to update the UI.  
+  5. Use `DrawHover.vi` to show cross indicators when hovering over full columns.  
 - Use `GetValidMoves.vi` to get playable columns and `IsBoardFull.vi` to detect a draw.  
 
 ---
@@ -74,6 +84,7 @@ This README summarizes the included SubVIs and their functionalities.
 - `CheckMove.vi`  
 - `CheckWin.vi`  
 - `DrawBoard.vi`  
+- `DrawHover.vi`  
 - `GetValidMoves.vi`  
 - `IsBoardFull.vi`  
 - `PlacePiece.vi`  
@@ -81,4 +92,4 @@ This README summarizes the included SubVIs and their functionalities.
 ---
 
 ## Version
-- **Connect Four v0.0** – initial release, basic functionality only.
+- **Connect Four v1.2** – initial release, basic functionality only.

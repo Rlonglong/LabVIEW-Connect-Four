@@ -14,6 +14,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="AIMove.vi" Type="VI" URL="../sub vi/AIMove.vi"/>
 		<Item Name="AIMove_MinMax.vi" Type="VI" URL="../sub vi/AIMove_MinMax.vi"/>
+		<Item Name="bc1.ctl" Type="VI" URL="../sub vi/bc1.ctl"/>
+		<Item Name="bc2.ctl" Type="VI" URL="../sub vi/bc2.ctl"/>
+		<Item Name="bc3.ctl" Type="VI" URL="../sub vi/bc3.ctl"/>
 		<Item Name="CheckMove.vi" Type="VI" URL="../sub vi/CheckMove.vi"/>
 		<Item Name="CheckWin.vi" Type="VI" URL="../sub vi/CheckWin.vi"/>
 		<Item Name="Drawboard.vi" Type="VI" URL="../sub vi/Drawboard.vi"/>
